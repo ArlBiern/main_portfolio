@@ -1,0 +1,22 @@
+.logo_fil0 {
+  fill: var(--light-color);
+  transition: ease-in-out 0.2s;
+}
+
+.logo_fil1 {
+  fill: var(--darker-color);
+  pointer-events: none;
+}
+
+.logo_fil2 {
+  fill: var(--contrast-color);
+  transition: ease-in-out 0.2s;
+}
+
+.logo_fil0:hover {
+  fill: var(--contrast-color);
+}
+
+.logo_fil2:hover {
+  fill: var(--light-color);
+}

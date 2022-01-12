@@ -1,0 +1,17 @@
+.squares_container .square_fil0 {
+  fill: var(--dark-color);
+}
+
+.squares_container .square_svg {
+  width: 108%;
+  transform: translateX(-4%);
+}
+
+.squares_container .square_svg rect {
+  outline: 1px solid var(--dark-color);
+  transition: ease-in-out 0.5s;
+}
+
+.squares_container .square_svg rect:hover {
+  fill: var(--contrast-color);
+}

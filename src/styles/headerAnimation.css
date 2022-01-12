@@ -1,0 +1,680 @@
+/* COLORS USED IN THE INTOR ANIMATION */
+
+.header_fil28 {
+  fill: #00923f;
+}
+.header_fil27 {
+  fill: #1f1a17;
+}
+.header_fil14 {
+  fill: #aaa9a9;
+}
+.header_fil11 {
+  fill: #c2c1c1;
+}
+.header_fil8 {
+  fill: #dededd;
+}
+.header_fil3 {
+  fill: white;
+}
+.header_fil7 {
+  fill: black;
+}
+.header_fil26 {
+  fill: #030104;
+}
+.header_fil35 {
+  fill: #131619;
+}
+.header_fil29 {
+  fill: #2e2e2d;
+}
+.header_fil30 {
+  fill: #454545;
+}
+.header_fil36 {
+  fill: #6c6b6a;
+}
+.header_fil24 {
+  fill: #b77d4e;
+}
+.header_fil34 {
+  fill: #c2c2c2;
+}
+.header_fil32 {
+  fill: #db670f;
+}
+.header_fil23 {
+  fill: #e09b58;
+}
+.header_fil33 {
+  fill: #e8902c;
+}
+.header_fil20 {
+  fill: #eeaa5b;
+}
+.header_fil21 {
+  fill: #f0c419;
+}
+.header_fil22 {
+  fill: #f9f7e4;
+}
+.header_fil31 {
+  fill: #fabe3a;
+}
+.header_fil10 {
+  fill: #140f2e;
+}
+.header_fil25 {
+  fill: #2a1d50;
+}
+.header_fil2 {
+  fill: #45648a;
+}
+.header_fil16 {
+  fill: #456492;
+}
+.header_fil0 {
+  fill: #5076b1;
+}
+.header_fil1 {
+  fill: #6087bf;
+}
+.header_fil13 {
+  fill: #8c8b8a;
+}
+.header_fil12 {
+  fill: #b6b5b4;
+}
+.header_fil19 {
+  fill: #b8676f;
+}
+.header_fil18 {
+  fill: #df8491;
+}
+.header_fil6 {
+  fill: #e19513;
+}
+.header_fil5 {
+  fill: #e6b15b;
+}
+.header_fil17 {
+  fill: #e97882;
+}
+.header_fil15 {
+  fill: #eee4e8;
+}
+.header_fil9 {
+  fill: #efeeee;
+}
+.header_fil4 {
+  fill: #f3ae31;
+}
+
+@keyframes tile_intro {
+  0% {
+    transform: translate(0px, -900px);
+    opacity: 0%;
+  }
+
+  40% {
+    opacity: 0%;
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+}
+
+@keyframes forkLifter_moves {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  16% {
+    transform: translate(-180px, 140px);
+  }
+
+  24% {
+    transform: translate(-180px, 140px);
+  }
+
+  32% {
+    transform: translate(-81px, 63px);
+  }
+
+  40% {
+    transform: translate(-81px, 63px);
+  }
+
+  44% {
+    transform: translate(-45px, 35px);
+  }
+
+  48% {
+    transform: translate(-90px, 70px);
+  }
+
+  56% {
+    transform: translate(9px, -7px);
+  }
+  60% {
+    transform: translate(9px, -7px);
+  }
+
+  64% {
+    transform: translate(54px, -42px);
+  }
+
+  68% {
+    transform: translate(9px, -7px);
+  }
+
+  72% {
+    transform: translate(108px, -84px);
+  }
+
+  76% {
+    transform: translate(108px, -84px);
+  }
+
+  80% {
+    transform: translate(180px, -133px);
+  }
+
+  100% {
+    transform: translate(180px, -133px);
+  }
+}
+
+@keyframes forkLifterForks_moves {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  8% {
+    transform: translate(0, -10px);
+  }
+
+  32% {
+    transform: translate(0, 0);
+  }
+
+  41.6% {
+    transform: translate(0, 0);
+  }
+
+  44% {
+    transform: translate(0, -10px);
+  }
+
+  56% {
+    transform: translate(0, -10px);
+  }
+
+  60% {
+    transform: translate(0, 0px);
+  }
+
+  60.8% {
+    transform: translate(0, 0px);
+  }
+
+  64% {
+    transform: translate(0, -10px);
+  }
+  72% {
+    transform: translate(0px, -10px);
+  }
+
+  76% {
+    transform: translate(0px, 10px);
+  }
+  80% {
+    transform: translate(0px, 0px);
+  }
+
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+
+@keyframes womanTile_moves {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  16% {
+    transform: translate(0px, 0px);
+  }
+  24% {
+    transform: translate(0px, -20px);
+  }
+
+  32% {
+    transform: translate(99px, -97px);
+  }
+
+  40% {
+    transform: translate(99px, -52px);
+  }
+
+  48% {
+    transform: translate(99px, -52px);
+  }
+
+  56% {
+    transform: translate(198px, -129px);
+  }
+
+  60% {
+    transform: translate(198px, -107px);
+  }
+
+  68% {
+    transform: translate(198px, -107px);
+  }
+
+  72% {
+    transform: translate(297px, -184px);
+  }
+
+  76% {
+    transform: translate(297px, -162px);
+  }
+
+  100% {
+    transform: translate(297px, -162px);
+  }
+}
+
+@keyframes movieTile_moves {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  16% {
+    transform: translate(0px, 0px);
+  }
+  24% {
+    transform: translate(0px, -20px);
+  }
+
+  32% {
+    transform: translate(99px, -97px);
+  }
+
+  40% {
+    transform: translate(99px, -52px);
+  }
+
+  48% {
+    transform: translate(99px, -52px);
+  }
+
+  56% {
+    transform: translate(198px, -129px);
+  }
+
+  60% {
+    transform: translate(198px, -107px);
+  }
+
+  100% {
+    transform: translate(198px, -107px);
+  }
+}
+
+@keyframes chatTile_moves {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  16% {
+    transform: translate(0px, 0px);
+  }
+  24% {
+    transform: translate(0px, -20px);
+  }
+  32% {
+    transform: translate(99px, -97px);
+  }
+  40% {
+    transform: translate(99px, -52px);
+  }
+  100% {
+    transform: translate(99px, -52px);
+  }
+}
+
+@keyframes www_word_move {
+  0% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  80% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  82.5% {
+    transform: translate(0px, -500px);
+    opacity: 0%;
+  }
+
+  85% {
+    transform: translate(0px, -500px);
+    opacity: 0%;
+  }
+  100% {
+    transform: translate(0px, -500px);
+    opacity: 0%;
+  }
+}
+
+@keyframes app_word_move {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  80% {
+    transform: translate(0px, 0px);
+  }
+
+  82.5% {
+    transform: translate(0px, 0px);
+  }
+
+  85% {
+    transform: translate(35px, 18px);
+  }
+
+  100% {
+    transform: translate(35px, 18px);
+  }
+}
+
+@keyframes heartTile_moves {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  80% {
+    transform: translate(0px, 0px);
+  }
+  85% {
+    transform: translate(-347px, -500px);
+  }
+
+  88% {
+    transform: translate(-347px, 180px);
+  }
+
+  100% {
+    transform: translate(-347px, 180px);
+  }
+}
+
+@keyframes imageTile_moves {
+  5% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  80% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  84% {
+    transform: translate(0px, -500px);
+    opacity: 0%;
+  }
+
+  88% {
+    transform: translate(347px, -180px);
+    opacity: 100%;
+  }
+
+  100% {
+    transform: translate(347px, -180px);
+  }
+}
+
+@keyframes articleTile_moves {
+  5% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  80% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  84% {
+    transform: translate(0px, -500px);
+    opacity: 0%;
+  }
+
+  88% {
+    transform: translate(74px, 318px);
+    opacity: 100%;
+  }
+
+  100% {
+    transform: translate(74px, 318px);
+  }
+}
+
+@keyframes securityTile_moves {
+  0% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  75% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  77% {
+    opacity: 0%;
+  }
+
+  80% {
+    transform: translate(0px, 800px);
+  }
+
+  84% {
+    transform: translate(-74px, -800px);
+    opacity: 0%;
+  }
+
+  88% {
+    transform: translate(-74px, -318px);
+    opacity: 100%;
+  }
+
+  100% {
+    transform: translate(-74px, -318px);
+  }
+}
+
+@keyframes chartTile_moves {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  75% {
+    transform: translate(0px, 0px);
+  }
+
+  80% {
+    transform: translate(-545px, -800px);
+    opacity: 100%;
+  }
+  82% {
+    opacity: 0%;
+  }
+
+  88% {
+    transform: translate(-545px, 336px);
+    opacity: 100%;
+  }
+
+  100% {
+    transform: translate(-545px, 336px);
+  }
+}
+
+@keyframes calendarTile_moves {
+  5% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  80% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  84% {
+    transform: translate(0px, -600px);
+    opacity: 0%;
+  }
+
+  88% {
+    transform: translate(545px, -336px);
+    opacity: 100%;
+  }
+
+  100% {
+    transform: translate(545px, -336px);
+  }
+}
+
+/* ==== CSS style ==== */
+.intro_svg {
+  display: flex;
+  margin: 0 auto;
+  width: 900px;
+  height: 550px;
+  margin-bottom: 50px;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+}
+
+.tile {
+  transform-origin: initial;
+  transform: translate(0px, -900px);
+}
+
+.shoppingCart_tile {
+  animation: tile_intro 0.75s 0.2s ease-in-out forwards;
+}
+
+.contacts_tile {
+  animation: tile_intro 0.75s ease-in-out forwards;
+}
+
+.email_tile {
+  animation: tile_intro 0.75s 0.3s ease-in-out forwards;
+}
+
+.calendar_tile {
+  animation: tile_intro 0.75s 0.05s ease-in-out forwards,
+    calendarTile_moves 12s 0.1s ease-in-out infinite both alternate;
+}
+
+.personDetail_tile {
+  animation: tile_intro 0.75s -0.4s ease-in-out forwards;
+}
+
+.img_tile {
+  animation: tile_intro 0.75s -0.3s ease-in-out forwards,
+    imageTile_moves 12s -0.3s ease-in-out infinite both alternate;
+}
+
+.social_tile {
+  animation: tile_intro 0.75s -0.2s ease-in-out forwards;
+}
+
+.article_tile {
+  animation: tile_intro 0.75s -0.1s ease-in-out forwards,
+    articleTile_moves 12s -0.1s ease-in-out infinite both alternate;
+}
+
+.forkLifter {
+  animation: forkLifter_moves 12s ease-in-out infinite both alternate;
+}
+
+.forkLifter .forkLifter_forks {
+  animation: forkLifterForks_moves 12s ease-in-out infinite both alternate;
+}
+
+.woman_tile {
+  animation: womanTile_moves 12s ease-in-out infinite both alternate;
+}
+
+.movie_tile {
+  animation: movieTile_moves 12s ease-in-out infinite both alternate;
+}
+
+.chat_tile {
+  animation: chatTile_moves 12s ease-in-out infinite both alternate;
+}
+
+.www_word .w_letter {
+  animation: www_word_move 12s ease-in-out infinite both alternate;
+}
+
+.app_word .a_letter {
+  animation: app_word_move 12s ease-in-out infinite both alternate;
+}
+
+.www_word .w_letter:nth-of-type(2) {
+  animation-delay: 0.05s;
+}
+
+.app_word .a_letter:nth-of-type(2) {
+  animation-delay: 0.05s;
+}
+
+.www_word .w_letter:nth-of-type(3) {
+  animation-delay: 0.1s;
+}
+
+.app_word .a_letter:nth-of-type(3) {
+  animation-delay: 0.1s;
+}
+
+.heart_tile {
+  animation: heartTile_moves 12s 0.1s ease-in-out infinite both alternate;
+}
+
+.security_tile {
+  animation: securityTile_moves 12s 0.2s ease-in-out infinite both alternate;
+}
+
+.chart_tile {
+  animation: chartTile_moves 12s 0.1s ease-in-out infinite both alternate;
+}
+
+@media only screen and (max-width: 1000px) {
+  .intro_svg {
+    width: 90%;
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .intro_svg {
+    width: 100%;
+    height: 400px;
+    transform: translateX(-20px);
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .intro_svg {
+    height: 65vw;
+  }
+}

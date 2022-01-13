@@ -1,4 +1,5 @@
 import Header from "./Header";
+import AboutMe from "./AboutMe";
 
 const Home = () => {
   return (
@@ -6,7 +7,9 @@ const Home = () => {
       <div className="section">
         <Header />
       </div>
-
+      <div className="section">
+        <AboutMe />
+      </div>
       <div
         className="section"
         style={{

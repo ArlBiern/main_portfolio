@@ -1,0 +1,351 @@
+function CreateIcon() {
+  return (
+    <svg className="create_icon_svg" viewBox="0 0 135 113">
+      <g className="create_icon_monitor">
+        <rect
+          className="create_fil0"
+          x="0.755"
+          y="0.2883"
+          width="133.49"
+          height="85.838"
+          rx="4.2537"
+          ry="4.2537"
+        />
+        <rect
+          className="create_fil1"
+          x="6.7548"
+          y="6.3187"
+          width="121.49"
+          height="73.8079"
+          rx="1.8452"
+          ry="1.8452"
+        />
+        <rect
+          className="create_fil0"
+          x="40.0257"
+          y="106.662"
+          width="55.0705"
+          height="6.0502"
+          rx="3.0251"
+          ry="3.0251"
+        />
+        <g>
+          <circle
+            className="create_fil0"
+            cx="55.0689"
+            cy="99.3943"
+            r="2.4999"
+          />
+          <circle
+            className="create_fil0"
+            cx="80.0487"
+            cy="99.3943"
+            r="2.4999"
+          />
+          <rect
+            className="create_fil0"
+            x="55.0689"
+            y="96.8943"
+            width="24.9798"
+            height="5"
+          />
+          <circle
+            className="create_fil0"
+            cx="55.0689"
+            cy="93.0266"
+            r="2.4999"
+          />
+          <circle
+            className="create_fil0"
+            cx="80.0487"
+            cy="93.0266"
+            r="2.4999"
+          />
+          <rect
+            className="create_fil0"
+            transform="matrix(4.80921E-015 -0.115628 0.826419 1.39372E-014 52.569 99.3943)"
+            width="55.0705"
+            height="6.0502"
+          />
+          <rect
+            className="create_fil0"
+            transform="matrix(4.80921E-015 -0.115628 0.826419 1.39372E-014 77.5488 99.3943)"
+            width="55.0705"
+            height="6.0502"
+          />
+        </g>
+        <g>
+          <g className="create_icon_code">
+            <rect //1
+              className="create_fil5"
+              x="16.7548"
+              y="41.3187"
+              width="23"
+              height="2.5"
+              rx="1.0388"
+              ry="1.0388"
+            />
+            <rect //2
+              className="create_fil3"
+              x="41.8105"
+              y="41.3187"
+              width="8"
+              height="2.5"
+              rx="1.0388"
+              ry="1.0388"
+            />
+            <rect //3
+              className="create_fil2"
+              x="26.7548"
+              y="46.3187"
+              width="23"
+              height="2.5"
+              rx="1.0388"
+              ry="1.0388"
+            />
+            <rect //4
+              className="create_fil4"
+              x="51.7959"
+              y="46.3187"
+              width="13"
+              height="2.5"
+              rx="1.0388"
+              ry="1.0388"
+            />
+            <rect //5
+              className="create_fil3"
+              x="26.7548"
+              y="51.3187"
+              width="18"
+              height="2.5"
+              rx="1.0388"
+              ry="1.0388"
+            />
+            <rect //6
+              className="create_fil3"
+              x="46.8293"
+              y="51.3187"
+              width="23"
+              height="2.5"
+              rx="1.0388"
+              ry="1.0388"
+            />
+            <rect //7
+              className="create_fil5"
+              x="71.8293"
+              y="51.3187"
+              width="8"
+              height="2.5"
+              rx="1.0388"
+              ry="1.0388"
+            />
+            <rect //8
+              className="create_fil2"
+              x="36.8298"
+              y="56.3187"
+              width="13"
+              height="2.5"
+              rx="1.0388"
+              ry="1.0388"
+            />
+            <rect //9
+              className="create_fil4"
+              x="51.8754"
+              y="56.3187"
+              width="13"
+              height="2.5"
+              rx="1.0388"
+              ry="1.0388"
+            />
+            <rect //10
+              className="create_fil4"
+              x="66.9142"
+              y="56.3187"
+              width="8"
+              height="2.5"
+              rx="1.0388"
+              ry="1.0388"
+            />
+            <rect //11
+              className="create_fil2"
+              x="36.7548"
+              y="61.3187"
+              width="23"
+              height="2.5"
+              rx="1.0388"
+              ry="1.0388"
+            />
+            <rect //12
+              className="create_fil5"
+              x="61.9378"
+              y="61.3187"
+              width="5"
+              height="2.5"
+              rx="1.0388"
+              ry="1.0388"
+            />
+            <rect //13
+              className="create_fil3"
+              x="26.7548"
+              y="66.3187"
+              width="23"
+              height="2.5"
+              rx="1.0388"
+              ry="1.0388"
+            />
+            <rect //14
+              className="create_fil5"
+              x="16.7548"
+              y="71.3187"
+              width="23"
+              height="2.5"
+              rx="1.0388"
+              ry="1.0388"
+            />
+          </g>
+          <rect
+            className="create_fil2"
+            x="16.8049"
+            y="11.3187"
+            width="20"
+            height="2.5"
+            rx="1.0388"
+            ry="1.0388"
+          />
+          <rect
+            className="create_fil2"
+            x="16.7548"
+            y="36.3187"
+            width="18"
+            height="2.5"
+            rx="1.0388"
+            ry="1.0388"
+          />
+          <rect
+            className="create_fil5"
+            x="26.7548"
+            y="16.3187"
+            width="18"
+            height="2.5"
+            rx="1.0388"
+            ry="1.0388"
+          />
+          <rect
+            className="create_fil5"
+            x="26.7548"
+            y="31.3187"
+            width="8"
+            height="2.5"
+            rx="1.0388"
+            ry="1.0388"
+          />
+          <rect
+            className="create_fil3"
+            x="61.7675"
+            y="21.3187"
+            width="13"
+            height="2.5"
+            rx="1.0388"
+            ry="1.0388"
+          />
+          <rect
+            className="create_fil3"
+            x="46.7548"
+            y="16.3187"
+            width="8"
+            height="2.5"
+            rx="1.0388"
+            ry="1.0388"
+          />
+          <rect
+            className="create_fil4"
+            x="36.7548"
+            y="26.3187"
+            width="18"
+            height="2.5"
+            rx="1.0388"
+            ry="1.0388"
+          />
+
+          <rect
+            className="create_fil4"
+            x="56.7548"
+            y="26.3187"
+            width="8"
+            height="2.5"
+            rx="1.0388"
+            ry="1.0388"
+          />
+          <rect
+            className="create_fil4"
+            x="36.7548"
+            y="21.3187"
+            width="23"
+            height="2.5"
+            rx="1.0388"
+            ry="1.0388"
+          />
+        </g>
+        <g>
+          <path
+            className="create_fil6 create_str1"
+            d="M89.2548 16.3187l30 0c1.3804,0 2.5,1.1195 2.5,2.5l0 50c0,1.3805 -1.1196,2.5 -2.5,2.5l-30 0c-1.3804,0 -2.5,-1.1195 -2.5,-2.5l0 -50c0,-1.3805 1.1196,-2.5 2.5,-2.5z"
+          />
+          <rect
+            className="create_fil7 create_str1"
+            x="90.2548"
+            y="19.8187"
+            width="28"
+            height="12.2695"
+          />
+          <g className="create_icon_display">
+            <rect
+              className="create_fil7 create_str1"
+              x="90.2548"
+              y="34.5882"
+              width="13"
+              height="14.2835"
+            />
+            <rect
+              className="create_fil7 create_str1"
+              x="105.255"
+              y="34.5882"
+              width="13"
+              height="14.2835"
+            />
+            <rect
+              className="create_fil7 create_str1"
+              x="90.2548"
+              y="51.3717"
+              width="28"
+              height="4.0899"
+            />
+            <rect
+              className="create_fil7 create_str1"
+              x="90.2548"
+              y="56.8233"
+              width="28"
+              height="2.0449"
+            />
+            <rect
+              className="create_fil7 create_str1"
+              x="90.2548"
+              y="60.4001"
+              width="28"
+              height="2.0449"
+            />
+            <rect
+              className="create_fil7 create_str1"
+              x="90.2548"
+              y="63.9001"
+              width="15"
+              height="2.0449"
+            />
+          </g>
+        </g>
+      </g>
+    </svg>
+  );
+}
+
+export default CreateIcon;

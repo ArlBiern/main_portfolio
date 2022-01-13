@@ -17,6 +17,10 @@
   font-weight: 700;
 }
 
+.header_heading {
+  line-height: 1em;
+}
+
 .header_h2 {
   color: var(--light-color);
   font-size: calc(2.25 * var(--font-size));

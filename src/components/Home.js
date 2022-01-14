@@ -1,5 +1,6 @@
 import Header from "./Header";
 import AboutMe from "./AboutMe";
+import Technologies from "./Technologies";
 
 const Home = () => {
   return (
@@ -9,6 +10,9 @@ const Home = () => {
       </div>
       <div className="section">
         <AboutMe />
+      </div>
+      <div className="section">
+        <Technologies />
       </div>
       <div
         className="section"

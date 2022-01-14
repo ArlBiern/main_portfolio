@@ -1,0 +1,96 @@
+.technologies_container {
+  width: 100%;
+  background-color: var(--grey);
+  position: relative;
+}
+
+.technologies_container .container_text_section {
+  position: relative;
+  z-index: 1;
+}
+
+.technologies_icons_container {
+  width: 90%;
+  margin: 2em auto;
+  margin-bottom: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+}
+
+.technology_icon {
+  width: 15%;
+}
+
+.technologies_icons_container .technology_icon:nth-child(8) {
+  display: none;
+}
+
+.technologies_icons_container .technology_icon:nth-child(n + 7) {
+  position: relative;
+  margin-top: -3.9%;
+}
+
+.technologies_container .section_title {
+  width: 220px;
+}
+
+.technologies_container .squares_bottom {
+  position: relative;
+  top: 3.5%;
+}
+
+.technologies_container .squares_bottom .square_fil0 {
+  fill: var(--dark-grey);
+  outline: 1px solid var(--dark-grey);
+}
+
+@media only screen and (max-width: 1000px) {
+  .technologies_icons_container {
+    width: 95%;
+  }
+
+  .technology_icon {
+    padding: 1%;
+    width: 20%;
+  }
+
+  .technologies_icons_container .technology_icon:nth-child(n + 6) {
+    position: relative;
+    margin-top: -5.5%;
+    left: 5%;
+  }
+
+  .technologies_icons_container .technology_icon:nth-child(8) {
+    display: inline-block;
+  }
+
+  .technologies_icons_container .technology_icon:nth-child(9) {
+    margin-right: 10%;
+  }
+
+  .technologies_icons_container .technology_icon:nth-child(n + 10) {
+    position: relative;
+    margin-top: -5.5%;
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .technologies_icons_container {
+    margin: 1em auto;
+    margin-bottom: 4em;
+  }
+
+  .technologies_container .container_text_section {
+    margin-top: 1em;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .technologies_container .container_text_section {
+    margin-top: 2em;
+  }
+}

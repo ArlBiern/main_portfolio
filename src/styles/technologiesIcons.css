@@ -1,0 +1,141 @@
+.stroke_light {
+  stroke: var(--light-color);
+  stroke-width: 0.196205;
+}
+
+.fil_light {
+  fill: white;
+}
+
+.fil_light_grey {
+  fill: var(--light-grey);
+}
+
+.fil_darker {
+  fill: var(--darker-color);
+}
+
+.babel_fil1 {
+  fill: #ffc800;
+}
+
+.bootstrap_fil1 {
+  fill: #9013fe;
+}
+
+.css3_fil1 {
+  fill: #2062af;
+}
+
+.css3_fil2 {
+  fill: #3c9cd7;
+}
+
+.html_fil1 {
+  fill: #e44d26;
+}
+
+.html_fil2 {
+  fill: #f16529;
+}
+
+.js_fil1 {
+  fill: #f7df1e;
+}
+
+.nodeJS_fil1 {
+  fill: #8cc84b;
+}
+
+.mongoDB_fil1 {
+  fill: #001e2b;
+}
+
+.vuetify_fil1 {
+  fill: #1697f6;
+}
+
+.vuetify_fil2 {
+  fill: #1867c0;
+}
+
+.vuetify_fil3 {
+  fill: #7bc6ff;
+}
+
+.vuetify_fil4 {
+  fill: #aeddff;
+}
+
+.sass_fil1 {
+  fill: #cd6799;
+}
+
+.webpack_fil1 {
+  fill: #8ed6fb;
+}
+
+.webpack_fil2 {
+  fill: #1c78c0;
+}
+
+.react_fil1 {
+  fill: #00d8ff;
+}
+
+.vue_fil1 {
+  fill: #41b883;
+}
+
+.vue_fil2 {
+  fill: #35495e;
+}
+
+.redux_fil1 {
+  fill: #764abc;
+}
+
+.vuex_fil1 {
+  fill: #41b883;
+}
+.vuex_fil2 {
+  fill: #35495e;
+}
+
+.vuex_fil3 {
+  fill: var(--dark-grey);
+}
+
+/* === Indyvidual icons === */
+
+.technology_icon {
+  padding: 0.5%;
+  width: 14%;
+  transition: ease-in-out 0.3s;
+  overflow: visible;
+}
+
+.background_icon_fil {
+  fill: var(--dark-grey);
+  stroke-width: 1%;
+  stroke: var(--light-color);
+  filter: drop-shadow(0 0.3mm 0.15mm var(--darker-color));
+  stroke-dasharray: 60;
+  stroke-dashoffset: 60;
+}
+
+.technology_icon .background_icon_fil {
+  transition: ease-in-out 0.25s;
+}
+
+.technology_icon:hover .background_icon_fil {
+  stroke: var(--light-color);
+  stroke-width: 1%;
+  filter: drop-shadow(0 0.3mm 0.3mm var(--light-color));
+  fill: var(--darker-color);
+  stroke-dashoffset: 0;
+}
+
+.technology_icon:hover {
+  transform: scale(1.05);
+}

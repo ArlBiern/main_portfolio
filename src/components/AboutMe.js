@@ -17,6 +17,9 @@ class AboutMe extends React.Component {
             breadth of possibilities. You can create something really useful or
             designed to challenge peoples way of thinking, but in addition you
             can explore science, mathematics, and other realms.
+            <span className="section_span">
+              Long story short - I am trying my best to keep up with the code :)
+            </span>
           </p>
           <p className="section_text">
             In addition to programming I also like to create things out of wood

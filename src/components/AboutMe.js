@@ -10,7 +10,7 @@ class AboutMe extends React.Component {
     return (
       <div className="aboutMe_container">
         <div className="container_text_section">
-          <h2 className="section_title">About Me</h2>
+          <h2 className="section_title">About me</h2>
           <p className="section_text">
             I think that the main force that drives me is desire of creation and
             need of self-development. What is neat about code is the sheer
@@ -55,7 +55,7 @@ class AboutMe extends React.Component {
               <ImproveIcon />
               <div className="aboutMe_mainArrow">
                 <p className="aboutMe_mainArrowText">Repeat</p>
-                <Arrow />
+                <Arrow data-arrow="3" />
               </div>
             </div>
             <h4 className="aboutMe_item_title">Improve</h4>

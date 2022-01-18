@@ -191,6 +191,7 @@
 
 .aboutMe_icon_cnt[data-order="1"] .arrow_icon_svg {
   animation: aboutMe_arrow_1 8s ease-in-out infinite;
+  pointer-events: none;
 }
 
 .aboutMe_icon_cnt[data-order="2"] {
@@ -199,6 +200,7 @@
 
 .aboutMe_icon_cnt[data-order="2"] .arrow_icon_svg {
   animation: aboutMe_arrow_2 8s ease-in-out infinite;
+  pointer-events: none;
 }
 
 .aboutMe_icon_cnt[data-order="3"] {
@@ -207,6 +209,7 @@
 
 .aboutMe_mainArrow {
   animation: aboutMe_arrow_3 8s ease-in-out infinite;
+  pointer-events: none;
 }
 
 .aboutMe_icon_cnt:hover {

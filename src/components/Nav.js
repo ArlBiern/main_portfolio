@@ -22,16 +22,16 @@ const Nav = () => {
           </label>
           <ul className="navigation_list">
             <li>
-              <a href="#">O mnie</a>
+              <a href="#">About me</a>
             </li>
             <li>
-              <a href="#">Technologie</a>
+              <a href="#">Technologies</a>
             </li>
             <li>
-              <a href="#">Projekty</a>
+              <a href="#">Projects</a>
             </li>
             <li>
-              <a href="#">Kontakt</a>
+              <a href="#">Contact</a>
             </li>
             <li className="language">
               <button className="language_button">

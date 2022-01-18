@@ -1,6 +1,7 @@
 import Header from "./Header";
 import AboutMe from "./AboutMe";
 import Technologies from "./Technologies";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
@@ -14,15 +15,8 @@ const Home = () => {
       <div className="section">
         <Technologies />
       </div>
-      <div
-        className="section"
-        style={{
-          height: "100vh",
-          backgroundColor: "#121212",
-          paddingTop: "100px",
-        }}
-      >
-        Next section
+      <div className="section">
+        <Contact />
       </div>
     </div>
   );

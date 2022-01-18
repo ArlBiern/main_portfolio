@@ -164,9 +164,7 @@ class Contact extends React.Component {
           <Squares />
         </div>
         <div className="footer">
-          <div className="footer_text">
-            &#169; NeatIT 2021 - {new Date().getFullYear()}
-          </div>
+          <div className="footer_text">&#169; Ariel Biernacki 2022</div>
         </div>
       </div>
     );

@@ -1,0 +1,240 @@
+.notFound_fil6 {
+  fill: none;
+}
+
+.notFound_fil5 {
+  fill: #72706f;
+}
+
+.notFound_fil11 {
+  fill: #969594;
+}
+
+.notFound_fil9 {
+  fill: #c2c1c1;
+}
+
+.notFound_fil10 {
+  fill: #dededd;
+}
+
+.notFound_fil8 {
+  fill: #e77817;
+}
+
+.notFound_fil4 {
+  fill: #b77d4e;
+}
+
+.notFound_fil3 {
+  fill: #e09b58;
+}
+
+.notFound_fil0 {
+  fill: #eeaa5b;
+}
+
+.notFound_fil1 {
+  fill: #f0c419;
+}
+
+.notFound_fil2 {
+  fill: #f9f7e4;
+}
+
+.notFound_fil12 {
+  fill: #ac631c;
+}
+
+.notFound_fil14 {
+  fill: #b6b5b4;
+}
+
+.notFound_fil15 {
+  fill: #b7671c;
+}
+
+.notFound_fil7 {
+  fill: #c26c1b;
+}
+
+.notFound_fil13 {
+  fill: #cd701b;
+}
+
+.notFound_fil17 {
+  fill: #d0cfcf;
+}
+
+.notFound_fil16 {
+  fill: #da741a;
+}
+
+.notFound_cnt {
+  width: 90%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: -60px;
+}
+
+.notFound_textCnt {
+  align-self: flex-end;
+  width: 60%;
+  position: relative;
+  top: 100px;
+}
+
+.notFound_textCnt h2 {
+  font-size: 160px;
+  line-height: 160px;
+  font-weight: 700;
+  color: var(--contrast-color);
+  align-self: center;
+  text-align: center;
+}
+
+.notFound_textCnt h3 {
+  font-size: 50px;
+  font-weight: 700;
+  width: 100%;
+  text-align: end;
+  text-align: center;
+}
+
+.notFound_svg {
+  align-self: flex-start;
+  width: 40%;
+  margin-left: 20%;
+  margin-bottom: 40px;
+}
+
+.notFound_info {
+  font-size: calc(2 * var(--font-size));
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.notFound_info:nth-of-type(2) {
+  color: var(--contrast-color);
+}
+
+@media only screen and (max-width: 1440px) {
+  .notFound_textCnt h2 {
+    font-size: 140px;
+    line-height: 140px;
+  }
+
+  .notFound_textCnt h3 {
+    font-size: 45px;
+  }
+
+  .notFound_info {
+    font-size: calc(1.75 * var(--font-size));
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .notFound_textCnt {
+    width: 60%;
+    top: 60px;
+  }
+
+  .notFound_textCnt h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+
+  .notFound_textCnt h3 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .notFound_textCnt {
+    top: 20px;
+  }
+
+  .notFound_textCnt h2 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  .notFound_textCnt h3 {
+    font-size: 36px;
+  }
+
+  .notFound_info {
+    font-size: calc(1.675 * var(--font-size));
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .notFound_cnt {
+    margin-top: 60px;
+  }
+
+  .notFound_textCnt {
+    width: 100%;
+    margin-bottom: 60px;
+    top: 0px;
+  }
+
+  .notFound_textCnt h2 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  .notFound_textCnt h3 {
+    font-size: 36px;
+  }
+
+  .notFound_info {
+    font-size: calc(1.675 * var(--font-size));
+  }
+
+  .notFound_svg {
+    align-self: flex-start;
+    width: 80%;
+    margin: 0;
+    align-self: center;
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .notFound_textCnt h2 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  .notFound_textCnt h3 {
+    font-size: 36px;
+  }
+
+  .notFound_info {
+    font-size: calc(1.25 * var(--font-size));
+  }
+
+  .notFound_svg {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .notFound_textCnt h2 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .notFound_textCnt h3 {
+    font-size: 30px;
+  }
+
+  .notFound_info {
+    font-size: calc(1.125 * var(--font-size));
+  }
+}

@@ -1,0 +1,64 @@
+.projects_container {
+  padding: 10px 0px 80px;
+  background-color: var(--dark-grey);
+  width: 100%;
+  position: relative;
+}
+
+.projects_container .squares_container {
+  position: absolute;
+  top: 35%;
+  opacity: 0.1;
+}
+
+.projects_container .squares_container .square_fil0 {
+  fill: var(--contrast-color);
+  outline: 1px solid var(--dark-grey);
+}
+
+.projects_container .container_text_section {
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.projects_container .squares_container.project_bottom {
+  position: absolute;
+  bottom: -30%;
+  opacity: 1;
+  background-color: transparent;
+}
+
+.projects_container .squares_container.project_bottom svg rect {
+  fill: var(--dark-grey);
+}
+
+.projects_container .squares_container.project_bottom svg rect:hover {
+  fill: var(--contrast-color);
+}
+
+@media only screen and (max-width: 1450px) {
+  .projects_container .squares_container.project_bottom {
+    bottom: -15vw;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .projects_container .squares_container {
+    position: absolute;
+    top: 35%;
+    opacity: 0.1;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .projects_container {
+    padding: 30px 0 50px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .projects_container .squares_container.project_bottom {
+    bottom: -48px;
+  }
+}

@@ -69,9 +69,10 @@
   font-size: 2em;
   font-weight: 700;
   letter-spacing: 0.5px;
-  width: 160px;
   margin-bottom: 1.25em;
   border-bottom: 3px solid var(--contrast-color);
+  padding-right: 15px;
+  align-self: flex-start;
 }
 
 .section_text {
@@ -134,7 +135,7 @@
   }
 
   .section_title {
-    width: 140px;
+    border-bottom: 2px solid var(--contrast-color);
   }
 }
 
@@ -144,7 +145,8 @@
   }
 
   .section_title {
-    text-align: center;
+    padding: 0 8px;
+    align-self: center;
   }
 
   .section_text {
@@ -168,10 +170,6 @@
   .section_text {
     line-height: 1.5em;
   }
-
-  .section_title {
-    width: 120px;
-  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -181,9 +179,5 @@
 
   .section_text {
     line-height: 1.25em;
-  }
-
-  .section_title {
-    width: 100px;
   }
 }

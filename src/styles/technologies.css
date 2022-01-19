@@ -33,10 +33,6 @@
   margin-top: -3.9%;
 }
 
-.technologies_container .section_title {
-  width: 210px;
-}
-
 .technologies_container .squares_bottom {
   position: relative;
   top: 3.5%;
@@ -56,10 +52,6 @@
 @media only screen and (max-width: 1000px) {
   .technologies_icons_container {
     width: 95%;
-  }
-
-  .technologies_container .section_title {
-    width: 190px;
   }
 
   .technology_icon {
@@ -94,18 +86,8 @@
     margin-bottom: 4em;
   }
 
-  .technologies_container .section_title {
-    width: 170px;
-  }
-
   .technologies_container .container_text_section {
     margin-top: 1em;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .technologies_container .section_title {
-    width: 140px;
   }
 }
 

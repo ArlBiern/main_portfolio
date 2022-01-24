@@ -48,10 +48,10 @@ const Carousel = () => {
     setSlide(newSlide);
   };
 
-  /* useEffect(() => {
+  useEffect(() => {
     const interval = setInterval(handleClickNext, 4000);
     return () => clearInterval(interval);
-  }); */
+  });
 
   return (
     <div className="carousel">

@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Nav />
       <Routes>
-        <Route index element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </div>

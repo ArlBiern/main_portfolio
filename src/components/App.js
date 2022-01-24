@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import React from "react";
 import Nav from "./Nav";
 import Home from "./Home";
@@ -9,10 +9,10 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="*" element={<PageNotFound />} />
-      </Routes>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route component={PageNotFound} />
+      </Switch>
     </div>
   );
 }

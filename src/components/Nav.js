@@ -12,20 +12,23 @@ class Nav extends React.Component {
     };
 
     this.hamburgerInput = React.createRef();
+    this.logo = React.createRef();
   }
 
   componentDidMount() {
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
       anchor.addEventListener("click", (e) => {
-        e.preventDefault();
-        console.log(this.state.hamburgerChecked);
-        if (this.state.hamburgerChecked) {
-          this.hamburgerInput.current.click();
-        }
+        if (e.target.closest("a") !== this.logo.current) {
+          e.preventDefault();
+          if (this.state.hamburgerChecked) {
+            this.hamburgerInput.current.click();
+          }
 
-        document.querySelector(e.target.getAttribute("href")).scrollIntoView({
-          behavior: "smooth",
-        });
+          document.querySelector(e.target.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+          });
+        }
       });
     });
   }
@@ -39,7 +42,7 @@ class Nav extends React.Component {
       <div className="section">
         <div className="nav_container">
           <div className="nav_logo_container">
-            <Link to="/">
+            <Link to="/" ref={this.logo}>
               <Logo />
             </Link>
           </div>

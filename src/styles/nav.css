@@ -88,6 +88,10 @@
   font-size: calc(1.5 * var(--font-size));
 }
 
+.navigation_list li:nth-of-type(1) {
+  display: none;
+}
+
 .navigation_list a {
   padding: 0.125em 0.5em;
   text-decoration: none;
@@ -198,6 +202,10 @@
     margin-top: 4vh;
     margin-bottom: 4vh;
     transition: ease-in-out all 0.3s;
+  }
+
+  .navigation_list li:nth-of-type(1) {
+    display: inline-block;
   }
 
   .hamburger_label {

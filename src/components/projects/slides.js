@@ -101,7 +101,7 @@ const slides = [
   {
     id: 8,
     title: "Simple landing page",
-    desc: "One of my first projects. Main aim was to get familiar with Sass and its possibilities as well to write npm scripts that automate dev and build process",
+    desc: "One of my first projects. Main aim was to get familiar with Sass and its possibilities as well to write npm scripts that automate dev and build process.",
     img1: `${process.env.PUBLIC_URL}/images/projects/portfolio4_1.jpg`,
     img2: `${process.env.PUBLIC_URL}/images/projects/portfolio4_2.jpg`,
     img3: `${process.env.PUBLIC_URL}/images/projects/portfolio4_3.jpg`,

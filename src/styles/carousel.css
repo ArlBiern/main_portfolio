@@ -24,6 +24,7 @@
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
+  width: 80%;
 }
 .carousel_link {
   text-decoration: none;
@@ -47,16 +48,17 @@
   text-align: center;
   border: none;
   cursor: pointer;
-  background: var(--contrast-color);
+  background: var(--darker-color);
   color: var(--light-color);
   opacity: 0.8;
   transition: 0.3s;
 }
 .carousel_button:hover {
   opacity: 1;
+  background-color: var(--dark-grey);
 }
 .carousel_button:active {
-  background: var(--dark-color);
+  background: var(--contrast-color);
 }
 .carousel_images {
   display: grid;
@@ -65,7 +67,7 @@
 }
 .carousel_image-box {
   overflow: hidden;
-  border: 2px solid var(--contrast-color);
+  border: 2px solid var(--dark-color);
 }
 .carousel_image-box--1 {
   grid-column: 1 / 1;
@@ -106,6 +108,40 @@
   transition: all 400ms;
 }
 
+.carousel_technologiesUsedCnt {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.carousel_technologiesUsed {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 5px;
+}
+
+.carousel_technologiesUsed .technology_icon {
+  width: 12%;
+  padding: 0.5%;
+}
+
+.carousel_technologiesUsed .technology_icon .background_icon_fil {
+  fill: var(--dark-color);
+  filter: drop-shadow(0 0.2mm 0.2mm var(--grey));
+}
+
+.carousel_technologiesUsed .technology_icon:hover .background_icon_fil {
+  fill: var(--darker-color);
+  filter: drop-shadow(0 0.2mm 0.2mm var(--light-color));
+}
+
+@media only screen and (max-width: 1100px) {
+  .carousel_images {
+    grid-template-rows: repeat(4, 100px);
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .carousel {
     display: grid;
@@ -134,7 +170,7 @@
   }
   .carousel_images {
     display: block;
-    height: 350px;
+    height: 400px;
   }
   .carousel_image-box--1,
   .carousel_image-box--2 {
@@ -142,11 +178,37 @@
   }
   .carousel_image-box--3 {
     height: 100%;
-    border-top: 2px solid var(--contrast-color);
+    border-top: 2px solid var(--dark-color);
+    box-shadow: inset 0 0 25px var(--dark-color);
   }
   .carousel_texts p,
   .carousel_texts a {
     font-size: calc(0.875 * var(--font-size));
+  }
+  .carousel_links {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .carousel_technologiesUsed .technology_icon {
+    width: 13%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .carousel_images {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel_images {
+    height: 275px;
+  }
+
+  .carousel_technologiesUsed .technology_icon {
+    width: 14%;
   }
 }
 
@@ -160,9 +222,21 @@
   }
 
   .carousel_images {
-    height: 300px;
+    height: 225px;
   }
   .carousel_texts {
     width: 90%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .carousel_images {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .carousel_images {
+    height: 170px;
   }
 }

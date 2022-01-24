@@ -9,7 +9,7 @@ const Projects = () => {
         <Squares />
       </div>
       <div className="container_text_section">
-        <h2 className="section_title">Projekty</h2>
+        <h2 className="section_title">Projects</h2>
         <Carousel />
       </div>
       <div className="squares_container project_bottom mirror">

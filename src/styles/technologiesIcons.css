@@ -106,6 +106,30 @@
   fill: var(--dark-grey);
 }
 
+.pug_fil0 {
+  fill: #ccac8d;
+}
+
+.pug_fil1 {
+  fill: #efcca3;
+}
+
+.pug_fil2 {
+  fill: #56332b;
+}
+
+.pug_fil3 {
+  fill: #442823;
+}
+
+.pug_fil4 {
+  fill: #7f4a41;
+}
+
+.pug_fil5 {
+  fill: #331712;
+}
+
 /* === Indyvidual icons === */
 
 .technology_icon {
@@ -138,4 +162,8 @@
 
 .technology_icon:hover {
   transform: scale(1.05);
+}
+
+.technology_icon.pug_svg .pug_svg_head {
+  transform: scale(0.5) translate(1px, 4px);
 }

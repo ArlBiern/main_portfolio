@@ -36,6 +36,7 @@
 .technologies_container .squares_bottom {
   position: relative;
   top: 3.5%;
+  z-index: 2;
 }
 
 .technologies_container .squares_bottom .square_fil0 {

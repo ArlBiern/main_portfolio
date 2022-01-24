@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Nav />
       <Routes>
-        <Route path="/main_portfolio" element={<Home />} />
-        <Route path="/main_portfolio/*" element={<PageNotFound />} />
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </div>
   );

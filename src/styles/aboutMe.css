@@ -1263,6 +1263,7 @@
   .aboutMe_icon_section {
     flex-direction: column;
     width: 100%;
+    pointer-events: none;
   }
 
   .aboutMe_item {

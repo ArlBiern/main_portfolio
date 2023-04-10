@@ -73,14 +73,16 @@ const Carousel = () => {
               </div>
             </div>
             <div className="carousel_links">
-              <a
-                href={slides[slide].webLink}
-                className="carousel_link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                See project &#10230;
-              </a>
+              {slides[slide].webLink && (
+                <a
+                  href={slides[slide].webLink}
+                  className="carousel_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  See project &#10230;
+                </a>
+              )}
               <a
                 href={slides[slide].githubLink}
                 target="_blank"

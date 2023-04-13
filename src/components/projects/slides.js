@@ -44,7 +44,7 @@ const slides = [
       "MongoDBIcon",
       "GithubIcon",
     ],
-    webLink: "https://bookstore-seven.herokuapp.com/",
+    webLink: "",
     githubLink: "https://github.com/arlbiern/BookStore",
   },
   {
@@ -62,7 +62,7 @@ const slides = [
       "MongoDBIcon",
       "GithubIcon",
     ],
-    webLink: "https://thinktree-e-shop.herokuapp.com/",
+    webLink: "",
     githubLink: "https://github.com/arlbiern/OnlineShop",
   },
   {
